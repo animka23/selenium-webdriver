@@ -5,7 +5,7 @@ public class BaseProperties {
     public static String BASE_URL = "https://quac.org/projects/SafeSafe/Mantis/login_page.php";
 
     public static String BASE_ADMIN_NAME= "Magda";
-    public static String BASE_ADMIN_PASSWORD = "<DO ZMIANY>";
+    public static String BASE_ADMIN_PASSWORD = "Magdalena23!";
 
     public static String CHROME_DRIVER_FILE_NAME = "/home/magda/Pobrane/chromedriver";
     public static String FIREFOX_DRIVER_FILE_NAME = "geckodriver.exe";
