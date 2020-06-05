@@ -1,6 +1,5 @@
 package selenium.uj.project.pages;
 
-import jdk.nashorn.internal.parser.Token;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

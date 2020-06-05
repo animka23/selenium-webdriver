@@ -7,7 +7,8 @@ public class BaseProperties {
     public static String BASE_ADMIN_NAME= "Magda";
     public static String BASE_ADMIN_PASSWORD = "Magdalena23!";
 
-    public static String CHROME_DRIVER_FILE_NAME = "/home/magda/Pobrane/chromedriver";
+    // public static String CHROME_DRIVER_FILE_NAME = "/home/magda/Pobrane/chromedriver";
+    public static String CHROME_DRIVER_FILE_NAME = "chromedriver.exe";
     public static String FIREFOX_DRIVER_FILE_NAME = "geckodriver.exe";
 
     public static String REPORTS_DIRECTORY_NAME = "/reports/";

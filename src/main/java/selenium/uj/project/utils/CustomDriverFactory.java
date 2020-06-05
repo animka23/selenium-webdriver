@@ -30,7 +30,8 @@ public class CustomDriverFactory {
         WebDriver driver;
         if (browserType.equalsIgnoreCase(BaseProperties.CHROME_BROWSER_TYPE)) {
             // Zdefiniowanie ścieżki dla zewnętrznego drivera przeglądarki Chrome
-            System.setProperty("webdriver.chrome.driver", BaseProperties.CHROME_DRIVER_FILE_NAME);
+            //System.setProperty("webdriver.chrome.driver", BaseProperties.CHROME_DRIVER_FILE_NAME);
+            System.setProperty("webdriver.chrome.driver", customFile.getResourceFilePathString(BaseProperties.CHROME_DRIVER_FILE_NAME));
             driver = new ChromeDriver(); // inicjalizacja przeglądarką Chrome
         } else if (browserType.equalsIgnoreCase(BaseProperties.FIREFOX_BROWSER_TYPE)) {
             // Zdefiniowanie ścieżki dla zewnętrznego drivera przeglądarki Firefox
